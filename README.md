@@ -48,3 +48,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Feel free to customize this template according to your project's specific details and requirements.
 
+## Preview
+
+https://github.com/sanjusjk/PassShaper/assets/26535858/0f1bd45a-2e72-4ef0-bc3a-7b6505b98af8
