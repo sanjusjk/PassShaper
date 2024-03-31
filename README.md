@@ -12,14 +12,19 @@ PassShaper is a Random Password Generator application built using Angular. It al
 ## Angular CLI
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
+
 ## Pull Docker image
 You can pull the image locally using this command "docker pull sanjusjk/passshaper"
+
+![image](https://github.com/sanjusjk/PassShaper/assets/26535858/4ed559fd-0070-4900-90ac-b49cdd3ca086)
+
 
 ## Run the app from image downloaded locally like below
 
 run the following command in cli "docker run -p 4200:4200 -d sanjusjk/passshaper:latest"  ---> this will run the command on detached mode and also map the host port with container port
 
 once done, please hit the url : http://localhost:4200/
+
 
 ## Clone 
 git clone https://github.com/sanjusjk/PassShaper.git
