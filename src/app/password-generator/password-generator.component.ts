@@ -15,43 +15,7 @@ export class PasswordGeneratorComponent {
   includeLowerCaseLetter: boolean = true; // include
 
   constructor(private clipboard: Clipboard) {}
-//   generatePassword(): void {
-//     const uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-//     const lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
-//     const digits = '0123456789';
-//     const symbols = '!@#$%^&*()_+{}[]';
 
-
-//     if(!(this.includeDigits) && !(this.includeLowerCaseLetter) && !(this.includeSpecialChars)&& !(this.includeUpperCaseLetter))
-//     {
-//       alert('Select any one checkbox');
-//       this.password='';
-//     }
-//     else{
-//       let characters = '';
-//       if (this.includeUpperCaseLetter) characters += uppercaseLetters;
-//       if (this.includeLowerCaseLetter) characters += lowercaseLetters;
-//       if (this.includeDigits) characters += digits;
-//       if (this.includeSpecialChars) characters += symbols;
-  
-//       let newPassword = '';
-  
-//       for (let i = 0; i < this.passwordLength; i++) {
-//         const randomIndex = Math.floor(Math.random() * characters.length);
-//         newPassword += characters[randomIndex];
-//       }
-  
-//       this.password = newPassword;
-//     }
-//     }
-    
-    
-//   copyToClipboard(): void {
-//     if (this.password) {
-//       this.clipboard.copy(this.password); // Copy password to clipboard
-//     }
-//   }
-// }
 generatePassword(): void {
   const uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
